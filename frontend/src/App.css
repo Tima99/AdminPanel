@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+}
+.relative{
+    position: relative;
+}
+.abs{
+    position: absolute;
+}
+.top-0{
+    top: 0;
+}
+
+.pointer{
+    cursor: pointer;
+}
+.full-display{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+}
+
+table{
+    border: 1px solid black;
+    width: 100%;
+    text-align: center;
+}
+
+.show-users{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.show-users button{
+    margin: 1rem auto;
+}
+a{
+    color: #333;
+    text-decoration: none;
+}
